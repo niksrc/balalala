@@ -17,7 +17,11 @@ A sample environment file `.env.example` is given
 git clone https://github.com/niksrc/balalala
 cd balalala
 npm install
+npm start
 ````
+for debugging
+use `set DEBUG=myapp & npm start` instead of `'npm start`
+
 Now visit http://127.0.0.1:3000 in the browser and spread some happiness :) .
 
 
