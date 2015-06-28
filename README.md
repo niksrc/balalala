@@ -1,6 +1,6 @@
 ##Balalala -Bringing Happiness
 
->A nifty little app that finds if your friend is depressed and help them cheer up.
+>A nifty little app that finds if your friends are depressed and help them cheer up.
 
 ##Requirements
 1. Node.js >=0.10
