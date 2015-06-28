@@ -30,7 +30,7 @@ var UserSchema = new Schema({
 var PersonalitySchema = new Schema({
   uid:String,
   screenName:String,
-  personalityData:Number
+  data:String
 })
 
 mongoose.connect(process.env.MONGO_URL);
@@ -124,7 +124,7 @@ Personality.findOne({screenName: handle}, function(err, personality) {
       if(err)
         console.log(err);
       if(personality) {
-          score = Math.round(personality.data);
+          score = Math.round(parseInt(personality.data));
           console.log(personality);
           res.render('meter',{score:score,handle:handle})
       } else {
@@ -199,7 +199,7 @@ function PersonalityService(){
               cb(score)
               personality.uid = userid;
               personality.screenName = screenName;
-              personality.score = score;
+              personality.data = ""+score;
               personality.save(function(err){
                   if(err)
                     console.log(err);
