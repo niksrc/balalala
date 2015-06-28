@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>AadharPay | E-wallet </title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand logo" href="#"><img src="img/logo.png" class="img-responsive"></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">My depression level</a></li>
+<li><a href="/logout" >logout</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 taglines centered">
+<h1>@{{handle}}</h1>
+
+<div class="col-md-3"></div>
+
+<div class="col-md-6 profile">
+    <p>Lets see how much depression his thoughts reflect !</p>
+
+    <div class="progress">
+        <div class="progress-bar " role="progressbar" aria-valuenow={{score}} aria-valuemin="0" aria-valuemax="100" style="width: {{score}}%;">
+            <span class="">{{score}}%</span>
+        </div>
+    </div>
+
+    <hr class="white-middle">
+    <p>Seems your friend need a fist bump! <br>Bring a smile on his/her face<br><a href="#" data-toggle="modal" data-target="#myModal">Send a smile right away</a></p>
+    <p class="guides"><strong>Above 90:</strong> Your friend strongly needs your support !<br><strong>Between 60 and 90:</strong> Your friend might need a new direction.<br><strong>Between 30 and 60:</strong> Lets say your friend just need a distraction<br><strong>Less than 30:</strong>Chill! Your friend is a badass.</p>
+</div>
+<div class="col-md-3"></div>
+</div>
+</div>
+
+    <div class="container-fluid search-again">
+        <div class="row">
+            <div class="col-md-12 taglines centered">
+                <p>Might wanna find some other friend's depression level?</p>
+            </div>
+
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6">
+
+                <form method="GET" action = "">
+                    <div class="search-bar">
+                        <input type="text" class="form-control"  name="handle" placeholder="@twitter_handle" autofocus>
+                    </div>
+                    <div class="search-button">
+                        <button class="btn btn-primary fa fa-search">Search</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel">Select your way of bringing a smile.</h4>
+</div>
+<div class="modal-body gifs">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="#"><img src="img/gifs/there-there.gif" class="img-responsive"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="#"><img src="img/gifs/balala.gif" class="img-responsive"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="#"><img src="img/gifs/there-there.gif" class="img-responsive"></a>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+$( document ).ready(function() {
+$("button[name='create']").click(function(event){
+event.preventDefault();
+$.post
+});
+});
+
+</script>
+</body>
+</html>

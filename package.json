@@ -17,6 +17,9 @@
     "morgan": "~1.5.3",
     "passport": "^0.2.2",
     "passport-twitter": "^1.0.3",
-    "serve-favicon": "~2.2.1"
+    "serve-favicon": "~2.2.1",
+    "twit": "^1.1.20",
+    "twitter": "^1.2.5",
+    "watson-developer-cloud": "^0.9.13"
   }
 }
