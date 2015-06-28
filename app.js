@@ -128,7 +128,7 @@ Personality.findOne({screenName: handle}, function(err, personality) {
           console.log(personality);
           res.render('meter',{score:score,handle:handle})
       } else {
-        p.get(undefined,'srcnik',function(data){
+        p.get(undefined ,handle , function(data){
           score = Math.round(data) || 0;
           res.render('meter',{score:score,handle:handle})
         }); 

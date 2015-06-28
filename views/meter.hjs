@@ -59,8 +59,7 @@
 
     <hr class="white-middle">
     <p>Seems your friend need a fist bump! <br>Bring a smile on his/her face<br>
-<a href="https://twitter.com/intent/tweet?text=Hey @{{handle}}Life is better when you are smiling!&url=http://giphy.com/gifs/disney-disneyanimation-LQHJjCAy4GTqE" >Tweet</a>
-    <a href="#" >Send a smile right away</a></p>
+<a href="https://twitter.com/intent/tweet?text=Hey @{{handle}} Life is better when you are smiling!&url=http://giphy.com/gifs/disney-disneyanimation-LQHJjCAy4GTqE" >Send a smile right away</a></p>
     <p class="guides"><strong>Above 90:</strong> Your friend strongly needs your support !<br><strong>Between 60 and 90:</strong> Your friend might need a new direction.<br><strong>Between 30 and 60:</strong> Lets say your friend just need a distraction<br><strong>Less than 30:</strong>Chill! Your friend is a badass.</p>
 </div>
 <div class="col-md-3"></div>
