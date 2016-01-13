@@ -1,9 +1,5 @@
 <h1 align="center">
-	<br>
-	<img width="400" src="https://cdn.rawgit.com/niksrc/balalala/master/public/img/home.jpg" alt="Balalala">
-	<br>
-	<br>
-	<br>
+	<img width="400" src="https://raw.githubusercontent.com/niksrc/balalala/master/public/img/home.jpg" alt="Balalala">
 </h1>
 
 # Balalala - Bringing Happiness
