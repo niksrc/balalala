@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img width="400" src="https://cdn.rawgit.com/niksrc/balalala/master/public/img/logo.png" alt="Balalala">
+	<img width="400" src="https://cdn.rawgit.com/niksrc/balalala/master/public/img/home.jpg" alt="Balalala">
 	<br>
 	<br>
 	<br>
