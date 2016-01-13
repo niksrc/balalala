@@ -1,30 +1,35 @@
-##Balalala -Bringing Happiness
+<h1 align="center">
+	<br>
+	<img width="400" src="https://cdn.rawgit.com/niksrc/balalala/master/public/img/logo.png" alt="Balalala">
+	<br>
+	<br>
+	<br>
+</h1>
 
->A nifty little app that finds if your friends are depressed and help them cheer up.
+# Balalala - Bringing Happiness
 
-##Requirements
-1. Node.js >=0.10
-2. npm >=2.10
-3. Twitter and IBM Watson Cloud credentials
-4. MongoDB
+> A nifty little app that finds if your friends are depressed and help them cheer up.
 
-##Getting Started
+## Requirements
+  - Node.js >=0.10
+  - npm >=2.10
+  - Twitter and IBM Watson Cloud credentials
+  - MongoDB
+
+## Install
 
 Create a `.env` file with your credentials.
 A sample environment file `.env.example` is given
 
-````
+```sh
 git clone https://github.com/niksrc/balalala
 cd balalala
 npm install
 npm start
-````
-for debugging
-use `set DEBUG=myapp & npm start` instead of `'npm start`
+```
 
-Now visit http://127.0.0.1:3000 in the browser and spread some happiness :) .
+Now visit http://127.0.0.1:3000 in the browser and spread some happiness :smile: .
 
+## License
 
-##License
-
-&copy; [Nikhil Srivastava](http://niksrc.github.io)
+MIT &copy; [Nikhil Srivastava](http://niksrc.github.io)
