@@ -12,4 +12,4 @@ router.get('/home', function (req, res) {
 	res.send(req.isAuthenticated() + ' ' + req.user);
 });
 
-module.export = router;
+module.exports = router;

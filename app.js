@@ -76,8 +76,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // routes
-app.get('/', index);
-app.get('/search', search);
+app.use('/', index);
+app.use('/search', search);
 
 // auth routes
 app.get('/auth/twitter', passport.authenticate('twitter'));

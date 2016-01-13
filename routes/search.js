@@ -1,4 +1,4 @@
-var router = require('express').router;
+var router = require('express').Router();
 var PersonalityService = require('../lib/personalityService');
 var Personality = require('../models/personality');
 
