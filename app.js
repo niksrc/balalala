@@ -9,37 +9,14 @@ var mongoose = require('mongoose');
 var passport = require('passport');
 var util = require('util');
 var TwitterStrategy = require('passport-twitter').Strategy;
-var Schema = mongoose.Schema;
 var Twit = require('twit');
 var watson = require('watson-developer-cloud');
+require('dotenv').load();
+var User = require('./models/user');
+var Personality = require('./models/personality');
 var app = express();
 
-require('dotenv').load();
-
-
-
-//Mogodb Schema and Connection
-var UserSchema = new Schema({
-  provider: String,
-  uid: String,
-  name: String,
-  image: String,
-  created: {type: Date, default: Date.now}
-});
-
-var PersonalitySchema = new Schema({
-  uid:String,
-  screenName:String,
-  data:String
-})
-
 mongoose.connect(process.env.MONGO_URL);
-mongoose.model('User', UserSchema);
-mongoose.model('Personality', PersonalitySchema);
-
-var User = mongoose.model('User');
-var Personality = mongoose.model('Personality');
-
 
 //Passport auth configuration
 passport.use(new TwitterStrategy({
