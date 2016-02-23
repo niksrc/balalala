@@ -20,6 +20,6 @@
     "serve-favicon": "~2.2.1",
     "twit": "^1.1.20",
     "twitter": "^1.2.5",
-    "watson-developer-cloud": "^0.9.13"
+    "watson-developer-cloud": "^1.2.4"
   }
 }
