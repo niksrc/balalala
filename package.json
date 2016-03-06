@@ -18,7 +18,7 @@
     "passport": "^0.2.2",
     "passport-twitter": "^1.0.3",
     "serve-favicon": "~2.2.1",
-    "twit": "^1.1.20",
+    "twit": "^2.2.3",
     "twitter": "^1.2.5",
     "watson-developer-cloud": "^0.9.13"
   }
